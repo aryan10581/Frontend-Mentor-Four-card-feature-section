@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+}
+.head {
+  text-align: center;
+}
+.light-h {
+  font-size: 36px;
+  color: hsl(234, 12%, 34%);
+  margin-top: 35px;
+  font-weight: 200;
+}
+#heading {
+  font-size: 38px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+#article {
+  width: 35vw;
+  color: hsl(229, 6%, 66%);
+}
+.head {
+  display: grid;
+  place-items: center;
+}
+.grid {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  /* border: 2px solid yellow; */
+}
+#super {
+  border-top: 5px solid #00e4e4;
+  margin-left: 20px;
+  width: 23vw;
+  background-color: white;
+  height: 30vh;
+  border-radius: 10px;
+  transform: translate(12vw, 26vh);
+}
+#team {
+  border-top: 5px solid red;
+  transform: translate(13vw, 8vh);
+  margin-left: 20px;
+  width: 23vw;
+  background-color: white;
+  height: 30vh;
+  border-radius: 10px;
+}
+.karma {
+  border-top: 5px solid #eec900;
+  transform: translate(-11vw, 42vh);
+  margin-left: 20px;
+  width: 23vw;
+  background-color: white;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.cal,
+.karma,
+#team,
+#super {
+  /* width: 10vw; */
+  margin-left: 20px;
+  width: 23vw;
+  background-color: white;
+  height: 30vh;
+  border-radius: 10px;
+}
+.deth {
+  margin-top: 28px;
+  /* text-align: center; */
+  font-size: 24px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-left: 20px;
+}
+.det {
+  padding: 20px;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+}
+.imgs {
+  float: right;
+  margin-right: 26px;
+}
+.cal {
+  border-top: 5px solid darkblue;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 23vw;
+  background-color: white;
+  height: 30vh;
+  border-radius: 10px;
+  transform: translate(-10vw, 25vh);
+}
+.cal,
+.karma,
+#team,
+#super {
+  box-shadow: 7px 6px 20px 0px #dee6ff;
+}
+
+
+
+
+@media screen and (max-width: 2650px) {
+    .cal,
+    .karma,
+    #team,
+    #super {
+      width: 25vw;
+      height: 30vh;
+    }
+    .grid {
+      margin-top: -58px;
+    }
+   
+    .karma>img,
+  
+    #super>img{
+      width: 42px;
+      margin-top: -25px;
+    }
+    .cal>img,
+    #team>img{
+      width: 40px;
+      margin-top: -11px;
+    }
+  }
+@media screen and (max-width: 1024px) {
+  .cal,
+  .karma,
+  #team,
+  #super {
+    width: 25vw;
+    height: 30vh;
+  }
+  .grid {
+    margin-top: -58px;
+  }
+ 
+  .karma>img,
+
+  #super>img{
+    width: 42px;
+    margin-top: -25px;
+  }
+  .cal>img,
+  #team>img{
+    width: 40px;
+    margin-top: -11px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+    .cal,
+    .karma,
+    #team,
+    #super {
+      width: 25vw;
+      height: 30vh;
+    }
+    .grid {
+      margin-top: 0px;
+    }
+   
+    .karma>img,
+  
+    #super>img{
+      width: 42px;
+      margin-top: -25px;
+    }
+    .cal>img,
+    #team>img{
+      width: 40px;
+      margin-top: -11px;
+    }}
+@media screen and (max-width: 768px) {
+    .grid {
+      display: flex;
+      margin-top: 10px;
+      flex-direction: column;
+    }
+    .cal,
+    .karma,
+    #team,
+    #super {
+      width: 50vw;
+      transform: translate(0px, 0px);
+      margin-left: 0;
+      margin-top: 27px;
+      height: 35vh;
+    }
+    .light-h {
+      font-size: 22px;
+    }
+    #heading {
+      font-size: 22px;
+    }
+    #article {
+      font-size: 14px;
+      width: 71vw;
+    }
+    .cal {
+      margin-bottom: 10px;
+    }
+  }
+@media screen and (max-width: 500px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+      margin-top: 10px;
+
+  }
+  .cal,
+  .karma,
+  #team,
+  #super {
+    width: 80vw;
+    transform: translate(0px, 0px);
+    margin-left: 0;
+    margin-top: 27px;
+    height: 35vh;
+  }
+  .light-h {
+    font-size: 22px;
+  }
+  #heading {
+    font-size: 22px;
+  }
+  #article {
+    font-size: 14px;
+    width: 71vw;
+  }
+  .cal {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+    .grid {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+        
+    }
+    .cal,
+    .karma,
+    #team,
+    #super {
+      width: 90vw;
+      transform: translate(0px, 0px);
+      margin-left: 0;
+      margin-top: 27px;
+      height: 35vh;
+    }
+    .light-h {
+      font-size: 22px;
+    }
+    #heading {
+      font-size: 22px;
+    }
+    #article {
+      font-size: 14px;
+      width: 71vw;
+    }
+    .cal {
+      margin-bottom: 10px;
+    }
+}
